@@ -1,0 +1,13 @@
+Canvia l’ordre de càrrega dels fitxers css i mira què passa. 
+
+Explica en un comentari: 
+
+-Quins elements passen a veure’s diferent i quins es continuen veient tal com tu havies definit? Per què?
+
+Els canvis que es produiràn són els següents. al existir 2 fitxers css, agafa prioritat l'últim fitxer, llavors els canvis seràn els aplicat per aquest últim fitxer.
+Excepte quan hi hagi una diferencia entre una ordre d'especificitat. Si el mateix text té el mateix ordre d'especificitat en els dos fitxers css cap problema, però en el cas que no sigui així, tindrà prioritat la clase d'especificitat i després el últim fitxer css.
+
+
+
+-Com ho faries perquè tots els elements es continuïn veient tal com es veia abans d’invertir l’ordre de càrrega? Proposa un codi CSS.
+jo el que faria seria posar un grau d'especificitat més alt al fitxer css que volem que apliqui els canvis al text.
