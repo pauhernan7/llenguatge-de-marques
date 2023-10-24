@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Formulari practica4</title>
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+
+<body>
+    <form action="formulari_enviat.html">
+        <div id="FondoNC">
+            <label for="forNoms">Nom i cognom</label>
+            <input id="formNoms" type="text"required>
+
+        </div>
+        
+        <br>
+
+        <div id="FondoE">
+            <label for="formNumero">Edat</label>
+            <input type="number" id="formNumero" name="formNumero" min="1" max="65" required>
+        </div>
+        
+        <br>
+
+        <div id="FondoCE">
+            <label for="forNoms">Correu electrònic</label>
+            <input id="formNoms" type="text" required>
+        </div>
+        
+        <br>
+        
+
+        <div id="FondoJ">
+            <label id="TituloJ">Jornada Laboral</label><br>
+            <label for="formCompleta">Jornada completa</label>
+            <input id="formCompleta" type="checkbox" checked ><br>
+
+            <label for="formParcial">Jornada parcial</label>
+            <input id="formParcial" type="checkbox" ><br>
+
+            <label for="formCap">Caps de setmana</label>
+            <input id="formCap" type="checkbox" ><br>
+        </div>
+        
+        <br>
+
+        <div id="Fondogenere">
+            <label for="formRadioAltres">Home</label>
+            <input id="formRadioAltres" type="radio" name="genere" checked required><br>
+
+            <label for="formRadioAltres">Dona</label>
+            <input for="formRadioAltres" type="radio" name="genere" required><br>
+
+            <label for="formRadioAltres";>Altres</label>
+            <input for="formRadioAltres" type="radio" name="genere" required><br>
+
+        </div>
+       
+        <br>
+
+        <div id="Disponibilitat">
+            <label>Disponibilitat</label>
+            <select>
+                <option selected></option>
+                <option required>Matí</option>
+                <option required>Tarde</option>
+                <option required>Nit</option>
+            </select>
+        </div>
+
+        <br>
+        
+        <div>
+            <textarea name="experiència" rows="20" cols="80" requiered>Descriu la teva experiència laboral</textarea>
+        </div>
+
+        <br>
+
+        <div>
+            <input type="submit" value="Enviar">
+        </div>
+            
+    </form>
+</body>
+</html>
