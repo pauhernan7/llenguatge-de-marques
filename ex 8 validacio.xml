@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE WAY SYSTEM "dtdlorenzo.dtd">
+<WAY>
+    <estoc>
+        <bosses>
+            <bossa id= "p1">
+                <nom>Louis Vuitton</nom>
+                <descripcio>Bossa blanca edicio limitada </descripcio>
+                <preu>500</preu>
+                <quantitat_disponible>100</quantitat_disponible>
+                <tamany>petit</tamany>
+            </bossa>
+            <bossa id= "p2">
+                <nom>GUESS</nom>
+                <descripcio>Bossa casual de tela negra</descripcio>
+                <preu>130</preu>
+                <quantitat_disponible>150</quantitat_disponible>
+                <tamany>gran</tamany>
+            </bossa>
+            <bossa id= "p3">
+                <nom>PRADA</nom>
+                <descripcio>Bossa casual de cuir negre</descripcio>
+                <preu>150</preu>
+                <quantitat_disponible>250</quantitat_disponible>
+                <tamany>petit</tamany>
+            </bossa>
+            <bossa id= "p4">
+                <nom>GUCCI</nom>
+                <descripcio>Bossa de festa cuir</descripcio>
+                <preu>300</preu>
+                <quantitat_disponible>230</quantitat_disponible>
+                <tamany>gran</tamany>
+            </bossa>
+        </bosses>
+    </estoc>
+    <clients>
+        <client id= "client1">
+            <nom> Carles</nom>
+            <adreça> avinguda gran 123</adreça>
+            <correu>puigdeklk@email.com</correu>
+            <telefon> 645837254 </telefon>
+            <targeta> 6453 0098 0056 3546 </targeta>
+            <compres>
+                <compra>
+                    <producte ref= "p1" />
+                    <quantitat>1</quantitat>
+                    <data>28-11-2023</data>
+                    <oferta>-3</oferta>
+                </compra>
+            </compres>
+        </client>
+
+
+        <client id= "client2">
+            <nom>Joana</nom>
+            <adreça> Carrer Gràcia 456</adreça>
+            <correu>joana567@email.com</correu>
+            <telefon> 698746327 </telefon>
+            <targeta>4563 0054 3498 1212 </targeta>
+            <compres>
+                <compra>
+                    <producte ref= "p2" />
+                    <quantitat> 1 </quantitat>
+                    <data>25-11-2023</data>
+                </compra>
+                <compra>
+                    <producte ref= "p3" />
+                    <quantitat> 2 </quantitat>
+                    <data>27-11-2023</data>
+                </compra>
+            </compres>
+        </client>
+    </clients>
+</WAY>
+ 
