@@ -1,0 +1,31 @@
+<!ELEMENT WAY (estoc, clients)> 
+
+<!-- Estock -->
+<!ELEMENT estoc (bosses)>
+<!ELEMENT bosses (bossa+)>
+<!ELEMENT bossa (nom, descripcio, preu, quantitat_disponible, tamany)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT descripcio (#PCDATA)>
+<!ELEMENT preu (#PCDATA)>
+<!ELEMENT quantitat_disponible (#PCDATA)>
+<!ELEMENT tamany (#PCDATA)>
+<!ATTLIST bossa id ID #REQUIRED>
+
+<!-- CLIENTS -->
+<!ELEMENT clients (client+)>
+<!ELEMENT client (nomClient, adreça, correu, telefon, targeta, compres)>
+<!ELEMENT nomClient (#PCDATA)>
+<!ELEMENT adreça (#PCDATA)>
+<!ELEMENT correu (#PCDATA)>
+<!ELEMENT telefon (#PCDATA)>
+<!ELEMENT targeta (#PCDATA)>
+<!ATTLIST client id ID #REQUIRED>
+
+<!-- COMPRES -->
+<!ELEMENT compres (compra+)>
+<!ELEMENT compra (producte, quantitat, data, oferta?)>
+<!ELEMENT producte (#PCDATA)>
+<!ELEMENT quantitat (#PCDATA)>
+<!ELEMENT data (#PCDATA)>
+<!ELEMENT oferta (#PCDATA)>
+<!ATTLIST producte ref IDREF #REQUIRED>
