@@ -1,0 +1,60 @@
+{
+    "devices": [
+        {
+            "Type": "computer",
+            "name": "Matebook",
+            "company": "huawei",
+            "inches": "13",
+            "stock": true,
+            "price": {
+                "valor": 780,
+                "currency": "€"
+            },
+            "internal_info": "C:\\Document\\files\\matebook.json"
+        },
+        {
+            "Type": "computer",
+            "name": "Titan",
+            "company": "Slimbook",
+            "inches": "15.6",
+            "stock": true,
+            "price": {
+                "valor": 1949,
+                "currency": "$"
+            },
+            "Slogan": [
+                "\"Slimbook Titan: Unleash Power in Every Pixel\"",
+                "\"Slimbook Titan: Powerhouse Performance\""
+            ]
+        },
+        {
+            "Type": "tablet",
+            "name": "Matepad",
+            "company": "huawei",
+            "inches": "10.4",
+            "stock": false,
+            "price": {
+                "valor": null,
+                "currency": "€"
+            },
+            "characteristics": null
+        },
+        {
+            "Type": "tablet",
+            "name": "P50 Pocket",
+            "company": "huawei",
+            "inches": "9",
+            "stock": true,
+            "price": {
+                "valor": 999,
+                "discount": "3%",
+                "currency": "€"
+            },
+            "characteristics": [
+                "5000mhA battery",
+                "Super AMOLED Plus",
+                "USB-C"
+            ]
+        }
+    ]
+}
