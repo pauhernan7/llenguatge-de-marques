@@ -1,0 +1,70 @@
+{
+    "pokemons": [
+        {
+            "nom": "gliscor",
+            "tipus": "terra/volador",
+            "pes": {
+                "mesura": "42,5",
+                "unitat": "kg"
+            },
+            "altura": {
+                "mesura": "2",
+                "unitat": "m"
+            },
+            "estadistiques": {
+                "ps": 75,
+                "atac": 95,
+                "defensa": 125,
+                "at.especial": 45,
+                "def.especial": 75,
+                "velocitat": 95,
+                "total": 510
+            },
+            "moviments": [
+                {
+                    "nom": "colmillo hielo",
+                    "descripció": " causa dany i té una probabilitat del 10% de congelar a l'objectiu i un 10% de fer-lo retrocedir. Tots dos efectes són independents i poden succeir simultàniament.",
+                    "potència": "65",
+                    "contacte": "sí"
+                },
+                {
+                    "nom": "terremoto",
+                    "descripció": "Primera generació: Terratrèmol causa mal i no té cap efecte secundari. Segona generació: Terratrèmol ara causa el doble de mal si l'oponent està usant excavar en aquest torn. Des de tercera a cinquena generació: En combats dobles i combats triples fereix a tots els Pokémon adjacents a l'usuari. A partir de la sisena generació: Si camp d'herba està actiu, la potència de terratrèmol es redueix a la meitat.",
+                    "potència": "80",
+                    "contacte": "sí"
+                },
+                {
+                    "nom": "danza espada",
+                    "descripció": "Dansa espasa puja dos nivells l'atac de l'usuari.",
+                    "potència": null,
+                    "contacte": null
+                },
+                {
+                    "nom": "respiro",
+                    "descripció": "Respiro restaura la meitat dels PS màxims de l'usuario",
+                    "potència": null,
+                    "contacte": null
+                }
+            ],
+            "evolucions": [
+                {
+                    "id": "472",
+                    "descripció": "Gligar evoluciona a Gliscor pujant un nivell de nit, equipat amb ullal agut. Gligar evoluciona a Gliscor exposant-ho a un ullal agut durant la nit (no es pot cancel·lar l'evolució)."
+                },
+                {
+                    "id": "540",
+                    "descripció": "Gliscor evoluciona a Gligalik al nivell 52"
+                }
+            ],
+            "imatge": [
+                {
+                    "url": "https://www.wikidex.net/wiki/Archivo:Gliscor.png",
+                    "descripció": "Aquest Pokémon s'inspira en un ratpenat, per les seves ales i orelles, i en un escorpí, per la seva cua i pinces. És d'una tonalitat més fosca que la de la seva preevolució. Les seves orelles es troben més desenvolupades i ara les seves ales ja no es troben unides als seus braços."
+                }
+            ]
+        },
+        {
+            // pokemon isma
+        }
+    ]    
+}
